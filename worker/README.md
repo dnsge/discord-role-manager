@@ -2,6 +2,12 @@
 
 This directory contains the Cloudflare worker backend that handles Discord authorization and role assignment.
 
+## Development
+
+Run `npm install` to install required dependencies.
+
+Run `npm run dev` to start the local API server. In `../frontend`, start the development server with `npm run dev`.
+
 ## Configuration
 
 In `wrangler.toml`, the following vars are required:

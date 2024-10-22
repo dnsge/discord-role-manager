@@ -2,6 +2,12 @@
 
 This directory contains the React frontend for the Discord Role Manager application.
 
+## Development
+
+Run `npm install` to install required dependencies`.
+
+Run `npm run dev` to start the development server. In `../worker`, start the local API server with `npm run dev`.
+
 ## Configuration
 
 In `.env`, there are two requried variables:
